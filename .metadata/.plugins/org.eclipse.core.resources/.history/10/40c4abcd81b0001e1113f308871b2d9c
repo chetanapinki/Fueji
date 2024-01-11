@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module week10_java_chetana {
+	requires junit;
+	requires org.junit.jupiter.api;
+}

@@ -1,0 +1,17 @@
+package com.week10_java_chetana;
+
+public class Pattern2 {
+public static void main(String[] args) {
+	
+		int n=10;
+		for(int index=1;index<=n;index++) {
+						for(int index1=1;index1<=n;index1++) {
+							if(index==1||index==n||index1==1||index1==n) {
+								System.out.print("*");		
+							}
+				
+			}
+			System.out.println();
+		}
+}
+}

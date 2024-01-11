@@ -1,0 +1,17 @@
+package com.week10_java_chetana;
+
+import java.lang.StackWalker.Option;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+public class YongestEmplyoee {
+//	Get the youngest employee details each department wise (By Using Optional)?
+	public static void main(String[] args) {
+		CreateEmplyoeeList createEmplyoeeList=new CreateEmplyoeeList();
+	List<Employee>	list=createEmplyoeeList.createEmplyoeeList();
+Optional<Employee> option	=list.stream().sorted(Comparator.comparing(Employee::getAge)).findFirst();
+	System.out.println(option.get());
+	}
+}

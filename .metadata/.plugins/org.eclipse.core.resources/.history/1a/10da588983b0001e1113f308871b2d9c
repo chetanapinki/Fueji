@@ -1,0 +1,28 @@
+package com.week10_java_chetana;
+
+import java.util.Iterator;
+
+public class Pattern1 {
+//	 * 
+//	   * * 
+//	  * * * 
+//	 * * * * 
+//	* * * * *
+//	 * * * *
+//	  * * *
+//	   * *
+//	    * 
+public static void main(String[] args) {
+	int n=5;
+	for(int index=1;index<=n;index++) {
+		for(int index1=n-1;index1>1;index1--) {
+		System.out.print("#");
+	
+      }
+		for(int index1=1;index1<=index;index1++) {
+			System.out.print("* ");	
+		}
+		System.out.println();
+	}
+}
+}

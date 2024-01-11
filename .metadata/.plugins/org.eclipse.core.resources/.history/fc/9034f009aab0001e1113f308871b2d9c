@@ -1,0 +1,22 @@
+package com.week10_java_chetana;
+
+import java.util.Iterator;
+
+public class Pattern1 {
+//	 * 
+//	   * * 
+//	  * * * 
+//	 * * * * 
+//	* * * * *
+//	 * * * *
+//	  * * *
+//	   * *
+//	    * 
+public static void main(String[] args) {
+	
+		
+	}
+
+	
+}
+

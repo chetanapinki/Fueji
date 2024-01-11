@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module week10_java_chetana {
+	requires junit;
+}

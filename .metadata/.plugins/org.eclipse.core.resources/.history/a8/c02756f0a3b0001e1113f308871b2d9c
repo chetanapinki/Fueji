@@ -1,0 +1,40 @@
+package com.week10_java_chetana;
+
+import java.util.Iterator;
+
+public class Pattern1 {
+//	 * 
+//	   * * 
+//	  * * * 
+//	 * * * * 
+//	* * * * *
+//	 * * * *
+//	  * * *
+//	   * *
+//	    * 
+public static void main(String[] args) {
+	
+		for (int index = 1; index <= 10; index++) {
+			for (int index1 = 1; index1  <= index - index; index++) {
+				System.out.print(" ");
+			}
+			for (int index2 = 1; index2 <= index; index2++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
+//		for (int outerloop2 = index - 1; index2 >= 1; index--) {
+//			for (int innerloop1 = 1; innerloop1 <= rows - outerloop2; innerloop1++) {
+//				System.out.print(" ");
+//			}
+//			for (int innerloop2 = 1; innerloop2 <= outerloop2; innerloop2++) {
+//				System.out.print("* ");
+//			}
+//			System.out.println();
+//		}
+	}
+
+	
+}
+
